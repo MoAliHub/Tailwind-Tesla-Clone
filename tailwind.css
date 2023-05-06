@@ -646,7 +646,7 @@ html {
   background-color: rgb(148 163 184 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.3;
 }
-.nav-header{
+nav{
   position: fixed;
   top: 0px;
   z-index: 20;
@@ -662,12 +662,12 @@ html {
   font-weight: 600;
 }
 @media (min-width: 768px){
-  .nav-header{
+  nav{
     padding-left: 40px;
     padding-right: 28px;
   }
 }
-.section{
+section{
   position: relative;
   min-height: 100vh;
   background-size: cover;
